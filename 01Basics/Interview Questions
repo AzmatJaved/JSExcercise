@@ -1,0 +1,51 @@
+Material UI, 
+Hooks,
+
+Event Delegation
+Event Bubbling
+
+
+How to have object immutable?
+
+
+How to prevent rerendering? for functional and class component---
+--- Using useEffect
+--- shouldComponentRender it will prevent rerendering
+
+Why we use Fat Arrow Function?
+Whenever we call an event we used arrow function, why we use?
+--- 
+
+
+I have series of component like several tree of component, i want first tree give data to 10the tree, How can i do that?
+--- contextAPI
+--- Redux
+--- RenderProps
+The term “render prop” refers to a technique for sharing code between React components using a prop whose value is a function.
+A component with a render prop takes a function that returns a React element and calls it instead of implementing its own render logic.
+<DataProvider render={data => (
+  <h1>Hello {data.target}</h1>
+)}/>
+Libraries that use render props include React Router, Downshift and Formik.
+
+
+Why we say that state is immutable in redux? (Initial State is immutable)
+--- 
+
+How to make object immutable?
+--- The Object.freeze() method freezes an object: that is, prevents new properties from being added to it; prevents existing properties from being removed; and prevents existing properties, or their enumerability, configurability, or writability, from being changed, it also prevents the prototype from being changed. The method returns the object in a frozen state.
+Example: 
+
+            const obj = {
+            props: 42,
+            };
+
+            Object.freeze(obj);
+            obj.props = 33;
+
+            console.log(obj.props);
+
+
+--- Object.seal()
+    The Object.seal() method seals an object, preventing new properties from being added to it and marking all existing properties as non-configurable. 
+    Values of present properties can still be changed as long as they are writable.
