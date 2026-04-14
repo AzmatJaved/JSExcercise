@@ -8,7 +8,7 @@
 //   lName: "Affan ",
 // };
 
-jhj
+
 // let fullName = function () {
 //   console.log(this.fName + " " + this.lName);
 // };
