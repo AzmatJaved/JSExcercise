@@ -1,7 +1,7 @@
-let Member1 = {
-  fName: "azmat",
-  lName: "Javed",
-};
+// let Member1 = {
+//   fName: "azmat",
+//   lName: "Javed",
+// };
 
 // let Member2 = {
 //   fName: "Mohammad",
