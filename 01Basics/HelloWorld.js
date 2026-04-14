@@ -3,10 +3,10 @@
 //   lName: "Javed",
 // };
 
-// let Member2 = {
-//   fName: "Mohammad",
-//   lName: "Affan ",
-// };
+let Member2 = {
+  fName: "Mohammad",
+  lName: "Affan ",
+};
 
 // let fullName = function () {
 //   console.log(this.fName + " " + this.lName);
