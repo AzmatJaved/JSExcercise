@@ -8,7 +8,7 @@
 //   lName: "Affan ",
 // };
 
-
+15 april
 // let fullName = function () {
 //   console.log(this.fName + " " + this.lName);
 // };
